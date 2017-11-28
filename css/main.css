@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+.centerBlockMain{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.clearfix::after , .clearfix::before{
+    content: '';
+    display:block;
+    height: 0;
+    clear:both;
+    
+}
+/*header*/
+.logo{
+    
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-family:'Roboto Condensed', sans-serif; ;
+}
+.contactBasket{
+    float:right;
+}
+.contactBasket p{
+    float:left;
+    font-size:0.75em;
+    font-weight: 600;
+}
+.contactBasket p img{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.headerBasket{
+    border:1px solid #eee;
+    padding: 7px 25px;
+    margin-left: 20px;
+}
+.headerBasket a{
+    text-transform: uppercase;
+    color:#7e7f84;
+    text-decoration:none;
+    margin-left: 20px;
+}
+.headerBasket a:hover{
+    color:#f45a40;
+}
+.headerPhone{
+    padding-top: 8px;
+}
+.headerTop{
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.headerBottom{
+    padding: 10px 0;
+}
+.menu{
+    float: left;
+}
+.menu li{
+    float:left;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size:0.85em;
+}
+.menu li a{
+    text-decoration: none;
+    color:#7e7f84;
+}
+.menu li a:hover{
+    color:#f45a40;
+}
+.searchBlock{
+    float:left;
+}
+.searchBtn{
+    float:left;
+    margin: 0 5px 0 0;
+}
+.search{
+    float:left;
+    font-size:0.85em;
+    color:#7e7f84;
+    border:none;
+    
+}
+/*/header*/
